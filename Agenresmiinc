@@ -1,0 +1,13 @@
+use Automattic\WooCommerce\Tests\RemoteSpecsValidation\RemoteSpecValidator;
+$validator = RemoteSpecValidator::create_from_bundle( 'remote-inbox-notification' );
+
+$spec = json_decode( file_get_contents(":your-remote-inbox-noficiation-json") );
+
+$result = $validator->validate( $spec );
+
+if ( !$result->is_valid() ) {
+	var_dump( $result->get_errors() );
+} else {
+	var_dump('everything looks good!');
+}works"}]}]}' \
+  -X POST 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=<g.dev/agenresmi-inc_jwIYIlKkbZEp03DXWkC6VrYdPowiJT60tK0XwLYaxUI_AIzaSyDqvAnrQLt_aGaTQ6wvEkeDgL3Vkud3H1s>
