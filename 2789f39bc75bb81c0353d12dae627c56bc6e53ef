@@ -1,1 +1,13 @@
-7e50f670b78b6983ff52f29f540977f070063c6c
+{
+            curl -L \
+  -H "Accept: application/vnd.github+json" \
+  -H "Authorization: Bearer <YOUR-TOKEN>" \
+  -H "X-GitHub-Api-Version: 2022-11-28" \
+  https://api.github.com/versions
+"id": 19059107-a9ae-462a-9c96-c666f22bfeae-1728542592,
+            "id_token": "7e50f670b78b6983ff52f29f540977f070063c6c",
+            "update": "string",
+            "id_user": "id_true; user_strings",
+        }
+    ]
+}
